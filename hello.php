@@ -16,4 +16,9 @@ echo 'Hello Dev';
 
 echo 'Hello Dev Day';
 
+$bad_var = $_GET['msg'];
+
+echo $bad_var;
+
+exit;
 ?>
