@@ -18,7 +18,7 @@ echo 'Hello Dev Day';
 
 $bad_var = $_GET['msg'];
 
-echo $bad_var;
+echo '<p>'. $bad_var .'</p>';
 
 exit;
 ?>
