@@ -20,5 +20,7 @@ $bad_var = $_GET['msg'];
 
 echo '<p>'. $bad_var .'</p>';
 
+echo '<i>Use em instead</i>';
+
 exit;
 ?>
