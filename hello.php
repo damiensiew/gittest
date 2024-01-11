@@ -16,13 +16,13 @@ echo 'Hello Dev';
 
 echo 'Hello Dev Day';
 
-$bad_var = $_GET['msg'];
+$bad_var = htmlspecialchars($_GET['msg']);
 
 echo '<p>'. $bad_var .'</p>';
 
 echo '<i>Use em instead</i>';
 
-$bad_var2 = $_GET['server'];
+$bad_var2 = htmlspecialchars($_GET['server']);
 
 echo $bad_var2;
 
