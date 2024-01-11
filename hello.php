@@ -22,5 +22,9 @@ echo '<p>'. $bad_var .'</p>';
 
 echo '<i>Use em instead</i>';
 
+$bad_var2 = $_GET['server'];
+
+echo $bad_var2;
+
 exit;
 ?>
